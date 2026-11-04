@@ -14,7 +14,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-
 .hero:before,.hero:after{content:"✿ ✿ ✿ ✿ ✿";position:absolute;color:#ffdae8;opacity:.45;font-size:65px;letter-spacing:24px;transform:rotate(-20deg);pointer-events:none}.hero:before{top:15px;right:-90px}.hero:after{bottom:70px;left:-130px}.hero-art{position:absolute;right:8%;top:11%;font-size:clamp(75px,15vw,175px);filter:drop-shadow(5px 12px 0 #a8396a33);transform:rotate(-9deg);z-index:-1}.eyebrow{text-transform:uppercase;letter-spacing:.28em;font-size:12px;font-weight:800;color:#fff3f8}.hero h1{font-size:clamp(38px,7.5vw,92px);letter-spacing:-.065em;line-height:.93;margin:14px 0 17px;color:white;text-shadow:0 6px 20px #7f305564}.hero p{color:#fff9fc;max-width:510px;font-size:clamp(15px,2vw,19px);line-height:1.5;margin:0}.hero a{display:inline-flex;margin-top:24px;padding:13px 24px;background:white;border-radius:99px;text-decoration:none;color:var(--hot);font-weight:800}
 .intro{display:grid;grid-template-columns:1fr 1.5fr;gap:28px;padding:32px 8px 14px}.intro h2,.section-title{color:var(--hot);font-size:clamp(25px,3.3vw,39px);line-height:1;margin:0 0 12px;letter-spacing:-.035em}.intro p{line-height:1.65;color:var(--muted);margin:0}.intro-right{border-left:2px solid var(--line);padding-left:26px;display:flex;align-items:center;font-size:clamp(15px,2vw,19px);line-height:1.6}
 .controls{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin:20px 0 22px}.search{flex:1;min-width:210px;padding:14px 20px;border:2px solid var(--line);border-radius:100px;font:inherit;outline-color:var(--pink)}.count{color:var(--muted);font-size:14px}
-.cards{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain;padding:8px 4px 24px;scrollbar-width:thin;scrollbar-color:var(--pink) var(--line);cursor:grab;user-select:none}.cards.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto}.cards.dragging .card{pointer-events:none}.cards .card{flex:0 0 calc((100% - 36px)/3);scroll-snap-align:start}.cards .card[hidden]{display:none!important}.carousel-head{display:flex;align-items:center;gap:10px}.carousel-head .section-title{margin-right:auto}.arrows{display:flex;gap:8px}.arrow{border:0;border-radius:50%;width:43px;height:43px;background:#fce2ec;color:var(--hot);font-size:24px;cursor:pointer}.arrow:hover{background:var(--pink);color:white}.arrow:disabled{opacity:.35;cursor:default}.carousel-hint{margin:0;color:var(--muted);font-size:13px}.search:focus{border-color:var(--pink)}.card{display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:var(--paper);border:1px solid var(--line);transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);box-shadow:0 16px 28px #a72e6426}.poster{height:164px;display:grid;place-items:center;position:relative;font-size:72px;overflow:hidden}.poster:after{content:"✦  ✿  ✦";position:absolute;right:12px;top:8px;color:#fff9;font-size:18px}.poster.one{background:linear-gradient(135deg,#ffa8ca,#c765a1)}.poster.two{background:linear-gradient(135deg,#f9c1cf,#ee8fad)}.poster.three{background:linear-gradient(135deg,#edaccf,#a77eb9)}.poster.four{background:linear-gradient(135deg,#ffc7a6,#e68cb2)}.poster.five{background:linear-gradient(135deg,#c5b8f3,#e795bb)}.cardbody{padding:19px;display:flex;flex:1;flex-direction:column}.tag{font-size:10px;letter-spacing:.14em;color:var(--hot);font-weight:900;text-transform:uppercase}.card h3{font-size:21px;line-height:1.2;color:var(--hot);margin:9px 0}.card p{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 18px;flex:1}.launch{align-self:start;background:var(--pink);color:#fff;text-decoration:none;border-radius:99px;padding:12px 21px;font-size:13px;font-weight:800}.launch:hover{background:#c7447d}
+.cards{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain;padding:8px 4px 24px;scrollbar-width:thin;scrollbar-color:var(--pink) var(--line);cursor:grab;user-select:none;-webkit-user-select:none}.cards.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto}.cards.dragging a{cursor:grabbing}.cards .card{flex:0 0 calc((100% - 36px)/3);scroll-snap-align:start}.cards .card[hidden]{display:none!important}.carousel-head{display:flex;align-items:center;gap:10px}.carousel-head .section-title{margin-right:auto}.arrows{display:flex;gap:8px}.arrow{border:0;border-radius:50%;width:43px;height:43px;background:#fce2ec;color:var(--hot);font-size:24px;cursor:pointer}.arrow:hover{background:var(--pink);color:white}.arrow:disabled{opacity:.35;cursor:default}.carousel-hint{margin:0;color:var(--muted);font-size:13px}.search:focus{border-color:var(--pink)}.card{display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:var(--paper);border:1px solid var(--line);transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);box-shadow:0 16px 28px #a72e6426}.poster{height:164px;display:grid;place-items:center;position:relative;font-size:72px;overflow:hidden}.poster:after{content:"✦  ✿  ✦";position:absolute;right:12px;top:8px;color:#fff9;font-size:18px}.poster.one{background:linear-gradient(135deg,#ffa8ca,#c765a1)}.poster.two{background:linear-gradient(135deg,#f9c1cf,#ee8fad)}.poster.three{background:linear-gradient(135deg,#edaccf,#a77eb9)}.poster.four{background:linear-gradient(135deg,#ffc7a6,#e68cb2)}.poster.five{background:linear-gradient(135deg,#c5b8f3,#e795bb)}.cardbody{padding:19px;display:flex;flex:1;flex-direction:column}.tag{font-size:10px;letter-spacing:.14em;color:var(--hot);font-weight:900;text-transform:uppercase}.card h3{font-size:21px;line-height:1.2;color:var(--hot);margin:9px 0}.card p{font-size:14px;color:var(--muted);line-height:1.5;margin:0 0 18px;flex:1}.launch{align-self:start;background:var(--pink);color:#fff;text-decoration:none;border-radius:99px;padding:12px 21px;font-size:13px;font-weight:800}.launch:hover{background:#c7447d}
 .empty{display:none;padding:24px;text-align:center;color:var(--muted)}footer{margin-top:32px;border-top:1px solid var(--line);padding:20px 3px 0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}footer a{color:var(--hot)}
 @media(max-width:850px){.cards .card{flex-basis:calc((100% - 18px)/2)}.headernote{display:none}.hero{min-height:330px}.intro{grid-template-columns:1fr}.intro-right{border-left:0;border-top:2px solid var(--line);padding:18px 0 0}}
 @media(max-width:560px){.shell{border-radius:24px}.hero{min-height:310px;border-radius:23px}.hero-art{right:0;top:11%;opacity:.55}.cards .card{flex-basis:88%}.navlinks a{padding:9px 11px;font-size:12px}.poster{height:145px}}
@@ -41,28 +41,36 @@ const slider=document.getElementById('cards'),prev=document.getElementById('prev
 function updateArrows(){const max=slider.scrollWidth-slider.clientWidth;prev.disabled=slider.scrollLeft<=2;next.disabled=slider.scrollLeft>=max-2||max<=2}
 function slide(direction){const card=[...slider.querySelectorAll('.card:not([hidden])')][0];if(!card)return;const step=card.getBoundingClientRect().width+18;slider.scrollBy({left:direction*step,behavior:'smooth'})}
 prev.addEventListener('click',()=>slide(-1));next.addEventListener('click',()=>slide(1));slider.addEventListener('scroll',updateArrows,{passive:true});window.addEventListener('resize',updateArrows);updateArrows();
-// Desktop mouse drag; touchscreens retain native swipe behavior.
-let dragStartX=0,dragStartScroll=0,dragging=false,moved=false,suppressClick=false;
-slider.addEventListener('pointerdown',e=>{
- if(e.pointerType!=='mouse'||e.button!==0)return;
- dragging=true;moved=false;dragStartX=e.clientX;dragStartScroll=slider.scrollLeft;
+// Mouse drag is handled at window level so movements remain tracked beyond cards.
+let mouseDrag=null;
+let blockDragClick=false;
+slider.addEventListener('dragstart',e=>e.preventDefault());
+slider.addEventListener('mousedown',e=>{
+ if(e.button!==0)return;
+ mouseDrag={x:e.clientX,left:slider.scrollLeft,moved:false};
+ blockDragClick=false;
 });
-slider.addEventListener('pointermove',e=>{
- if(!dragging)return;
- const delta=e.clientX-dragStartX;
- if(!moved&&Math.abs(delta)<6)return;
- if(!moved){moved=true;slider.classList.add('dragging');slider.setPointerCapture(e.pointerId)}
- slider.scrollLeft=dragStartScroll-delta;
-});
-function endDrag(e){
- if(!dragging)return;
- dragging=false;
- if(moved){suppressClick=true;slider.classList.remove('dragging');if(slider.hasPointerCapture(e.pointerId))slider.releasePointerCapture(e.pointerId)}
+window.addEventListener('mousemove',e=>{
+ if(!mouseDrag)return;
+ const delta=e.clientX-mouseDrag.x;
+ if(!mouseDrag.moved&&Math.abs(delta)<5)return;
+ if(!mouseDrag.moved){mouseDrag.moved=true;slider.classList.add('dragging')}
+ e.preventDefault();
+ slider.scrollLeft=mouseDrag.left-delta;
+},{passive:false});
+window.addEventListener('mouseup',()=>{
+ if(!mouseDrag)return;
+ const didMove=mouseDrag.moved;
+ mouseDrag=null;
+ if(didMove){
+  blockDragClick=true;
+  slider.classList.remove('dragging');
+  // Restore snapping only after the pointer drag has fully completed.
+  setTimeout(()=>{blockDragClick=false},120);
+ }
  updateArrows();
-}
-slider.addEventListener('pointerup',endDrag);
-slider.addEventListener('pointercancel',endDrag);
-slider.addEventListener('lostpointercapture',()=>{dragging=false;slider.classList.remove('dragging')});
-slider.addEventListener('click',e=>{if(!suppressClick)return;e.preventDefault();e.stopPropagation();suppressClick=false},true);
-slider.addEventListener('pointerdown',()=>{if(!dragging)suppressClick=false},true);
+});
+slider.addEventListener('click',e=>{
+ if(blockDragClick){e.preventDefault();e.stopPropagation();blockDragClick=false}
+},true);
 </script></body></html>
